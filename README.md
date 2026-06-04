@@ -85,7 +85,8 @@ These two models are the confirmed-working defaults (set in `src/nbrag/ollama.py
 Override with `OLLAMA_EMBED_MODEL`, `OLLAMA_CHAT_MODEL`, and `OLLAMA_HOST` (default
 `http://127.0.0.1:11434`).
 
-**Dev container → host Mac:** Ollama often listens only on the host. From a container, use:
+**Running inside a container → host Mac:** Ollama often listens only on the host. From a
+container, point at the host:
 
 ```sh
 export OLLAMA_HOST=http://host.docker.internal:11434
