@@ -1,5 +1,7 @@
 # nbrag
 
+Wanted to poke at RAG strategies for Jupyter Notebooks, particularly those that could be run locally. Genearlly seems to work with well structured notebooks. A main challenge in this is getting _real_ messy notebooks to actually benchmark against which proved more difficult than I thought it would be. May come back to this to build out some proper benchmarks but for now I'm happy with the result that a naive chunking strategy and some very tiny models produces decent results and signals there may not be much need to innovate here. 
+
 `nbrag` is a small, laptop-friendly demo of retrieval-augmented generation (RAG) over
 Jupyter notebooks using **small local models** through [Ollama](https://ollama.com). It
 parses notebooks without executing them, turns them into notebook-aware retrieval chunks,
