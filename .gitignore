@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.coverage
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+examples/notebooks/**/.venv/
+dist/
+htmlcov/
+*.egg-info/
+.env
+.env.*
+indexes/
+.DS_Store
